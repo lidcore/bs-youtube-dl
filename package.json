@@ -1,0 +1,32 @@
+{
+  "name": "bs-youtube-dl",
+  "version": "2018.05.18",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidcore/bs-youtube-dl.git"
+  },
+  "homepage": "https://github.com/lidcore/bs-youtube-dl.git",
+  "bugs": "https://github.com/lidcore/bs-youtube-dl/issues",
+  "keywords": [
+    "bucklescript",
+    "youtube",
+    "video",
+    "download"
+  ],
+  "author": "LIDCORE IT <it@lidcore.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "bs-platform": "^3.1.0",
+    "bs-tape": "^0.3.0"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^2.0.0",
+    "@lidcore/bs-node": "^0.3.2",
+    "bs-callback": "^1.4.1"
+  }
+}

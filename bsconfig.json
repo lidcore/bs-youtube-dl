@@ -1,0 +1,22 @@
+{
+  "name": "bs-youtube-dl",
+  "version": "2018.05.26",
+  "sources": [
+    "src",
+    {
+      "dir": "examples",
+      "public": []
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "bs-dependencies": ["@glennsl/bs-json", "@lidcore/bs-node", "bs-callback"],
+  "bs-dev-dependencies": ["bs-tape"],
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
